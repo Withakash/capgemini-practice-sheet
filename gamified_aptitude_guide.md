@@ -104,6 +104,5 @@ You can practice each game unlimited times for mastery.
 
 ---
 
-If you want, I can also **add diagrams**, **examples**, **step-by-step strategies**, or **tips for scoring high**.  
-Just send me the detailed theory one by one, and I’ll update this file further!
+
 
