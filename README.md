@@ -82,8 +82,8 @@ This section includes:
 
 ---
 
-# 🎮 Gamified Aptitude – Practice Resource (For Tomorrow’s Class)
-Tomorrow’s topic: **Gamified Aptitude**
+# 🎮 Gamified Aptitude – Practice Resource
+ topic: **Gamified Aptitude**
 
 Here is a trusted practice website:
 👉 https://technicalhub.io/capgemini/
@@ -96,35 +96,7 @@ This site provides:
 
 ---
 
-# 🧾 Suggested Practice Topics for Gamified Aptitude
-### **1. Deductive Logical Thinking Games**
-- Pattern matching
-- Rule‑based reasoning
 
-### **2. Response Time & Accuracy Games**
-- Quick decision tasks
-- Visual reaction tasks
-
-### **3. Memory Games**
-- Sequencing
-- Object recall
-
-### **4. Problem-Solving Games**
-- Grid puzzles
-- Movement simulations
-
-### **5. Cognitive Ability Games**
-- Multi-step reasoning
-- Attention to detail
-
----
-
-# 📘 Conclusion
-This README provides everything you need to understand the **Cognizant GenC 2025–2026 Recruitment Process** as well as a **Gamified Aptitude guide** for teaching and practice.
-
-You can now directly upload this `.md` file to GitHub.
-
----
 
 **Made for Students by Akash 💻✨**
 
