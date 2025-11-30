@@ -69,7 +69,7 @@ Your task is to **find and return the count of special days** between **1 and N 
 
 ---
 
-# Problem Statement 2# Problem Statement 2
+# Problem Statement 2
 
 You are a teacher organizing a field trip for your students. You have a class of **N students**, and you want to divide them into **two groups** for the trip.
 
@@ -143,5 +143,116 @@ The groups must be of equal size, so the maximum possible group size is **1**.
 ```
 1
 ```
+
+
+# Problem Statement 3
+
+A spinner game has the digits **0-9** on it. In each round, the spinner shows the **last digit of your current number**.
+
+You start the first round with a number **N**.
+In each following round, you **multiply K with your current number**.
+
+You are given the starting number **N** and the multiplier **K**.
+Your task is to:
+
+1. Determine **all distinct digits** that can appear on the spinner if the game continues forever.
+2. Compute and return the **product of these distinct digits**.
+
+---
+
+## Input Specification
+
+* **input1:** An integer value **N**, denoting the starting number.
+* **input2:** An integer value **K**, denoting the multiplier for each round.
+
+---
+
+## Output Specification
+
+Return an integer value representing the **product of all distinct possible digits** that will show up on the spinner if the game is played forever.
+
+---
+
+## Example 1
+
+**Input:**
+
+```
+input1: 11
+input2: 3
+```
+
+### Explanation
+
+* Start with **11** → last digit **1**
+* Next: 11 × 3 = 33 → last digit **3**
+* Next: 33 × 3 = 99 → last digit **9**
+* Next: 99 × 3 = 297 → last digit **7**
+* Next: 297 × 3 = 891 → last digit **1** (cycle repeats)
+
+Distinct digits appearing: **1, 3, 9, 7**
+
+Product = **1 × 3 × 9 × 7 = 189**
+
+**Output:**
+
+```
+189
+```
+
+
+
+# Problem Statement 4
+
+Tom is a maths teacher who is teaching **Geometric Progression (GP)** in his class.
+He starts with a sequence where the first term is **A₁** and the common ratio is **R**.
+
+Each subsequent term in the sequence is obtained by multiplying the previous term by **R**.
+
+Your task is to generate and return an **integer array** that contains the GP series **up to the largest term that is less than or equal to a given limit Z**.
+
+---
+
+## Input Specification
+
+* **input1:** An integer value **A₁**, representing the first term of the sequence.
+* **input2:** An integer value **R**, representing the common ratio of the sequence.
+* **input3:** An integer value **Z**, representing the upper limit.
+
+---
+
+## Output Specification
+
+Return an **integer array** containing the GP series **until the largest term that is ≤ Z**.
+
+---
+
+## Example 1
+
+**Input:**
+
+```
+input1: 2
+input2: 3
+input3: 100
+```
+
+### Working
+
+* First term = 2
+* Next term = 2 × 3 = 6
+* Next term = 6 × 3 = 18
+* Next term = 18 × 3 = 54
+* Next term = 54 × 3 = 162 → exceeds 100 → stop
+
+**Output:**
+
+```
+[2, 6, 18, 54]
+```
+
+
+
+
 
 
