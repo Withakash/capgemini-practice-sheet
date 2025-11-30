@@ -535,7 +535,7 @@ Traverse the array once and count how many times the sign-class (non-negative vs
 ---
 
 
-# Problem Statement 5 - Highest Peak — Altitude Sum Problem
+# Problem Statement 6 - Highest Peak — Altitude Sum Problem
 
 Alice (or a hiker) visits a sequence of checkpoints with given altitudes.
 A **peak** is defined as a contiguous subarray that first strictly increases and then strictly decreases (both increasing and decreasing parts must be non-empty). The shape is like a mountain (increasing then decreasing). The **altitude sum** of a peak is the sum of the values in that subarray.
